@@ -15,7 +15,7 @@ Following is a brief description of the files contained in the repository:
 
 ## Data processing in the R scripts
 
-Each **plot*x*.R** script (with x = 1...4) performs the following tasks:
+Each "plot**x**.R" script (**x** = 1...4) performs the following tasks:
 * read the raw data file ("*household_power_consumprion.txt*") in a data frame
 * merge the first two columns - "Date" and "Time" in a single column and convert it from "character" to "POSIXct" type
 * discard all the rows in the data frame except those which have the value of the first column ("Date_Time") in the interval [**Feb/01/2007 00:00:00**, **Feb/02/2007 23:59:59**]
