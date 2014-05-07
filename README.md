@@ -22,10 +22,12 @@ Each R script (**plot1.R** ... **plot4.R**) performs the following tasks:
 * set png(filename="plot**x**.png", bg="transparent") as the current graphics device where **x** is the plot number corresponding to the R script
 * generate the required plot using the base R plotting system by calling **hist()**, **plot()** and **lines()** functions (as needed)
 
-Details have been provided in the comments in each R script.
+The steps have been described in the comments in each R script as well.
 The repository doesn't contain the raw data file (household_power_consumption.txt). If you would 
 like to try to run the R scripts, download the scripts from this repository and the raw data file
 from the URL provided in the assignment specifications and then source the R scripts in R/RStudio console
+
+For the description of the raw data please read the **original.repo.README.md** file.
 
 #### NOTE:
 The image files have been generated with the **same background as the reference plots - transparent** (the alpha-channel of the PNG files is set to 0).
