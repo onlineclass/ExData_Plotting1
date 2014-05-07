@@ -26,7 +26,7 @@ data <- data[data[,1] >= strptime("01/02/2007 00:00:00",
                                  format = "%d/%m/%Y %H:%M:%S"),]
 
 ## 2.1 Define the "png" device
-png(filename = "plot2.png", width=480, height=480, units="px", bg="white")
+png(filename = "plot2.png", width=480, height=480, units="px", bg="transparent")
 
 ## 2.2 Create plot2 (the raw time series line plot of "Global_active_power" 
 ## variable) on the png device
